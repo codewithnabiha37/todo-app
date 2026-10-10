@@ -1,16 +1,68 @@
-# React + Vite
+# My Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Todo application built with React, Vite, and Tailwind CSS to manage daily tasks with a simple and clean interface.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Open My Todo App](https://todo-app-two-pink-87.vercel.app/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add new tasks
+* Edit and delete tasks
+* Mark tasks as completed or active
+* Search tasks by name
+* Filter tasks by All, Active, and Completed
+* View total, active, and completed task statistics
+* Save tasks in the browser using localStorage
+* Responsive design for desktop and mobile devices
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* Browser localStorage
+* Git and GitHub
+* Vercel
+
+## Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/codewithnabiha37/todo-app.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd todo-app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## Production Build
+
+To create a production build, run:
+
+```bash
+npm run build
+```
+
+## Author
+
+Built as a hands-on React project to practice component-based development, state management, reusable components, and browser storage.
